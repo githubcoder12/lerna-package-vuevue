@@ -1,0 +1,26 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.6.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "conventional-changelog-cli": "^2.2.2",
+    "typescript": "^5.0.3",
+    "vue": "^3.2.36",
+    "vue-loader": "^17.0.1",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-cli-service": "^0.0.11",
+    "webpack-dev-server": "^4.13.2"
+  },
+  "scripts": {
+    "A-build": "webpack serve --config ./build/webpack.config.js",
+    "build": "webpack  --config ./build/webpack.config.js"
+  }
+}

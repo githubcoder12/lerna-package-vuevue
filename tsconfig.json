@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+    /* Language and Environment */
+    "target": "es2016", //ESNext ,打包的目标语法
+    "jsx": "preserve", //不转化JSX
+    /* Modules */
+    "module": "commonjs", //ESNext   模块转换后的格式
+    "moduleResolution": "node", //模块解析方式
+    /* Emit */
+    "declaration": true, //生成声明文件
+    "sourceMap": true, //生成映射文件
+    /* Interop Constraints */
+    "esModuleInterop": true, //支持模块转换
+    "forceConsistentCasingInFileNames": true, //区分大小写
+    /* Type Checking */
+    "strict": true,
+    /* Completeness */
+    "skipLibCheck": true //跳过检查
+  },
+  "include": ["packages/**/*.vue"],
+  "exclude": ["nod_modules"]
+}
