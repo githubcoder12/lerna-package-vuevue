@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <div id="lbutton"></div>
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script type="module">
+      const { Button: lButton } = lpackage;
+      //   console.log(lpackage, lpackage.default.components[0], lButton);
+      const { createApp } = Vue;
+      createApp(lButton).mount("#lbutton");
+    </script>
+  </body>
+</html>

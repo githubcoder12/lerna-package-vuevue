@@ -20,7 +20,7 @@
     "webpack-dev-server": "^4.13.2"
   },
   "scripts": {
-    "A-build": "webpack serve --config ./build/webpack.config.js",
+    "default-build": "webpack serve --config ./build/webpack.config.js",
     "build": "webpack  --config ./build/webpack.config.js"
   }
 }
